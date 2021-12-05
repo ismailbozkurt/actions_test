@@ -1,5 +1,7 @@
 name: telegram deneme
-on: [push]
+on:
+  schedule:
+  - cron: "15 9,19 * * *"
 jobs:
 
   build:
@@ -12,5 +14,9 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
-            yiooooo
+            Beni ihmal ediyorsun sayin beni gelistiren vatandas. 
+            Bu mesaji atan servis = 
+            https://github.com/ismailbozkurt/ \
+            actions_test/blob/main/.github/workflows/main.yml dosyasidir.
+            Samsunlulari ayiklama dernegi.
             
