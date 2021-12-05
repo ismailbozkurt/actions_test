@@ -12,5 +12,5 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
-            yiooooo
+            muztafa her gun zabah gelecek bu mesaj. tiriviriyi optimize edelim <3
             
