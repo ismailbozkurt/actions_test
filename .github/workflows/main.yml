@@ -16,7 +16,6 @@ jobs:
           message: |
             Beni ihmal ediyorsun sayin beni gelistiren vatandas. 
             Bu mesaji atan servis = 
-            https://github.com/ismailbozkurt/ \
-            actions_test/blob/main/.github/workflows/main.yml dosyasidir.
+            https://github.com/ismailbozkurt/actions_test/blob/main/.github/workflows/main.yml dosyasidir.
             Samsunlulari ayiklama dernegi.
             
