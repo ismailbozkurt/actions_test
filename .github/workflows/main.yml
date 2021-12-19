@@ -1,7 +1,7 @@
 name: telegram deneme
-on:
-  schedule:
-  - cron: "15 9,19 * * *"
+
+on: push
+
 jobs:
 
   build:
